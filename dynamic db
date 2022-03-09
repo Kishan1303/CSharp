@@ -1,0 +1,154 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Data.Sql;
+using System.Data.SqlClient;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace CreateDb
+{
+    public partial class Form1 : Form
+    {
+        TextBox textfilenm = new TextBox();
+        ComboBox cmddt = new ComboBox();
+        TextBox textsize = new TextBox();
+        int fieldcount = 0;
+        int check = 0;
+        public Form1()
+        {
+            InitializeComponent();
+            //this.Controls.Add(cmddt);
+        }
+        protected override bool ProcessCmdKey(ref Message msg, Keys keyData)
+        {
+            if (keyData == Keys.Escape)
+            {
+                this.Close();
+            }
+            return base.ProcessCmdKey(ref msg, keyData);
+        }
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int y = 180;
+            fieldcount = Convert.ToInt32(textBox2.Text);
+            for (int i = 1; i <= fieldcount; i++)
+            {
+                y += 35;
+                textfilenm = new TextBox();
+                textfilenm.Name = "textfilenm " + i.ToString();
+                this.Controls.Add(textfilenm);
+                textfilenm.Width = 123;
+                textfilenm.Height = 30;
+                textfilenm.Location = new System.Drawing.Point(12, y);
+
+                cmddt = new ComboBox();
+                cmddt.Name = "cmddt" + i.ToString();
+                cmddt.TextChanged += new EventHandler(ShowMsg);
+                this.Controls.Add(cmddt);
+                cmddt.Items.Add("varchar");
+                cmddt.Items.Add("int");
+                cmddt.Height = 30;
+                cmddt.Width = 123;
+                cmddt.Location = new System.Drawing.Point(252, y);
+
+                textsize = new TextBox();
+                textsize.Name = "textsize " + i.ToString();
+                this.Controls.Add(textsize);
+                textsize.Width = 123;
+                textsize.Height = 30;
+                textsize.Location = new System.Drawing.Point(452, y);
+
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            String field = "";
+            int fieldcount = Convert.ToInt32(textBox2.Text);
+            int i;
+            if (textfilenm.Text != "" && cmddt.Text != "")
+            {
+
+
+                for (i = 1; i <= fieldcount; i++)
+                {
+                    if (this.Controls["cmddt" + i.ToString()].Text == "varchar")
+                    {
+                        if (this.Controls["textsize " + i.ToString()].Text != "")
+                        {
+                            check = 1;
+                            if (i == fieldcount)
+                            {
+                                field += this.Controls["textfilenm" + i.ToString()].Text + "" + this.Controls["cmddt" + i.ToString()].Text + "(" + this.Controls["textsize" + i.ToString()].Text + ")";
+                            }
+                            else
+                            {
+                                field += this.Controls["textfilenm" + i.ToString()].Text + "" + this.Controls["cmddt" + i.ToString()].Text + "(" + this.Controls["textsize" + i.ToString()].Text + "),";
+                            }
+                        }
+                        else
+                        {
+                            check = 0;
+                            MessageBox.Show("Plz enter size");
+                        }
+
+                    }
+
+                    else
+                    {
+
+                        if (i == fieldcount)
+                        {
+                            field += this.Controls["textfilenm" + i.ToString()].Text + "" + this.Controls["cmddt" + i.ToString()].Text;
+                        }
+                        else
+                        {
+                            field += this.Controls["textfilenm" + i.ToString()].Text + "" + this.Controls["cmddt" + i.ToString()].Text + ",";
+                        }
+
+                    }
+                }
+                if (check == 1)
+                {
+
+                    string sql = "create table " + textBox1.Text + "(" + field + ")";
+                    SqlDataAdapter adapter = new SqlDataAdapter(sql, Class1.cn);
+                    DataTable dt = new DataTable();
+                    adapter.Fill(dt);
+                }
+            }
+            else
+            {
+                MessageBox.Show("Enter value");
+            }
+
+        }
+        private void ShowMsg(object sender, EventArgs e)
+        {
+            for (int i = 1; i <= fieldcount; i++)
+            {
+                if (this.Controls["cmddt" + i.ToString()].Text == "int")
+                {
+                    //this.Controls.Remove(this.Controls["txtsize" + i.ToString()]);
+                    this.Controls["textsize" + i.ToString()].Enabled = false;
+                }
+                else
+                {
+                    //this.Controls.Add(this.Controls["textsize" + i.ToString()]);
+                    this.Controls["textsize" + i.ToString()].Enabled = true;
+                }
+            }
+
+        }
+    }
+}
