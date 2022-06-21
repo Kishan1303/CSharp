@@ -1,0 +1,15 @@
+D:\BCA\Sem 4\CSharp\Project\Hotel Managment\Hotel Managment\bin\Debug\bin\Debug\hotelmanagment.mdf
+D:\BCA\Sem 4\CSharp\Project\Hotel Managment\Hotel Managment\bin\Debug\bin\Debug\hotelmanagment_log.ldf
+D:\BCA\Sem 4\CSharp\Project\Hotel Managment\Hotel Managment\bin\Debug\Hotel Managment.exe.config
+D:\BCA\Sem 4\CSharp\Project\Hotel Managment\Hotel Managment\bin\Debug\Hotel Managment.exe
+D:\BCA\Sem 4\CSharp\Project\Hotel Managment\Hotel Managment\bin\Debug\Hotel Managment.pdb
+D:\BCA\Sem 4\CSharp\Project\Hotel Managment\Hotel Managment\obj\Debug\Hotel Managment.csproj.AssemblyReference.cache
+D:\BCA\Sem 4\CSharp\Project\Hotel Managment\Hotel Managment\obj\Debug\Hotel Managment.csproj.SuggestedBindingRedirects.cache
+D:\BCA\Sem 4\CSharp\Project\Hotel Managment\Hotel Managment\obj\Debug\Hotel_Managment.Form1.resources
+D:\BCA\Sem 4\CSharp\Project\Hotel Managment\Hotel Managment\obj\Debug\Hotel_Managment.Properties.Resources.resources
+D:\BCA\Sem 4\CSharp\Project\Hotel Managment\Hotel Managment\obj\Debug\Hotel Managment.csproj.GenerateResource.cache
+D:\BCA\Sem 4\CSharp\Project\Hotel Managment\Hotel Managment\obj\Debug\Hotel Managment.csproj.CoreCompileInputs.cache
+D:\BCA\Sem 4\CSharp\Project\Hotel Managment\Hotel Managment\obj\Debug\Hotel Managment.exe
+D:\BCA\Sem 4\CSharp\Project\Hotel Managment\Hotel Managment\obj\Debug\Hotel Managment.pdb
+D:\BCA\Sem 4\CSharp\Project\Hotel Managment\Hotel Managment\obj\Debug\Hotel_Managment.homepage.resources
+D:\BCA\Sem 4\CSharp\Project\Hotel Managment\Hotel Managment\obj\Debug\Hotel_Managment.Login.resources
