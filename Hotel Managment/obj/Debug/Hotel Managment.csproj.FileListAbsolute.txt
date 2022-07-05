@@ -1,0 +1,43 @@
+D:\BCA\Sem 4\CSharp\Project\Hotel Managment\Hotel Managment\bin\Debug\bin\Debug\hotelmanagment.mdf
+D:\BCA\Sem 4\CSharp\Project\Hotel Managment\Hotel Managment\bin\Debug\bin\Debug\hotelmanagment_log.ldf
+D:\BCA\Sem 4\CSharp\Project\Hotel Managment\Hotel Managment\bin\Debug\Hotel Managment.exe.config
+D:\BCA\Sem 4\CSharp\Project\Hotel Managment\Hotel Managment\bin\Debug\Hotel Managment.exe
+D:\BCA\Sem 4\CSharp\Project\Hotel Managment\Hotel Managment\bin\Debug\Hotel Managment.pdb
+D:\BCA\Sem 4\CSharp\Project\Hotel Managment\Hotel Managment\obj\Debug\Hotel Managment.csproj.AssemblyReference.cache
+D:\BCA\Sem 4\CSharp\Project\Hotel Managment\Hotel Managment\obj\Debug\Hotel Managment.csproj.SuggestedBindingRedirects.cache
+D:\BCA\Sem 4\CSharp\Project\Hotel Managment\Hotel Managment\obj\Debug\Hotel_Managment.Properties.Resources.resources
+D:\BCA\Sem 4\CSharp\Project\Hotel Managment\Hotel Managment\obj\Debug\Hotel Managment.csproj.GenerateResource.cache
+D:\BCA\Sem 4\CSharp\Project\Hotel Managment\Hotel Managment\obj\Debug\Hotel Managment.csproj.CoreCompileInputs.cache
+D:\BCA\Sem 4\CSharp\Project\Hotel Managment\Hotel Managment\obj\Debug\Hotel Managment.exe
+D:\BCA\Sem 4\CSharp\Project\Hotel Managment\Hotel Managment\obj\Debug\Hotel Managment.pdb
+D:\BCA\Sem 4\CSharp\Project\Hotel Managment\Hotel Managment\obj\Debug\Hotel_Managment.homepage.resources
+D:\BCA\Sem 4\CSharp\Project\Hotel Managment\Hotel Managment\obj\Debug\Hotel_Managment.Login.resources
+D:\BCA\Sem 4\CSharp\Project\Hotel Managment\Hotel Managment\obj\Debug\Hotel_Managment.singlecat.resources
+D:\BCA\Sem 4\CSharp\Project\Hotel Managment\Hotel Managment\bin\Debug\BouncyCastle.Crypto.dll
+D:\BCA\Sem 4\CSharp\Project\Hotel Managment\Hotel Managment\bin\Debug\Google.Protobuf.dll
+D:\BCA\Sem 4\CSharp\Project\Hotel Managment\Hotel Managment\bin\Debug\K4os.Compression.LZ4.dll
+D:\BCA\Sem 4\CSharp\Project\Hotel Managment\Hotel Managment\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\BCA\Sem 4\CSharp\Project\Hotel Managment\Hotel Managment\bin\Debug\K4os.Hash.xxHash.dll
+D:\BCA\Sem 4\CSharp\Project\Hotel Managment\Hotel Managment\bin\Debug\MySql.Data.dll
+D:\BCA\Sem 4\CSharp\Project\Hotel Managment\Hotel Managment\bin\Debug\System.Buffers.dll
+D:\BCA\Sem 4\CSharp\Project\Hotel Managment\Hotel Managment\bin\Debug\System.Memory.dll
+D:\BCA\Sem 4\CSharp\Project\Hotel Managment\Hotel Managment\bin\Debug\System.Numerics.Vectors.dll
+D:\BCA\Sem 4\CSharp\Project\Hotel Managment\Hotel Managment\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\BCA\Sem 4\CSharp\Project\Hotel Managment\Hotel Managment\bin\Debug\Ubiety.Dns.Core.dll
+D:\BCA\Sem 4\CSharp\Project\Hotel Managment\Hotel Managment\bin\Debug\ZstdNet.dll
+D:\BCA\Sem 4\CSharp\Project\Hotel Managment\Hotel Managment\bin\Debug\Google.Protobuf.pdb
+D:\BCA\Sem 4\CSharp\Project\Hotel Managment\Hotel Managment\bin\Debug\Google.Protobuf.xml
+D:\BCA\Sem 4\CSharp\Project\Hotel Managment\Hotel Managment\bin\Debug\K4os.Compression.LZ4.xml
+D:\BCA\Sem 4\CSharp\Project\Hotel Managment\Hotel Managment\bin\Debug\K4os.Compression.LZ4.Streams.xml
+D:\BCA\Sem 4\CSharp\Project\Hotel Managment\Hotel Managment\bin\Debug\K4os.Hash.xxHash.xml
+D:\BCA\Sem 4\CSharp\Project\Hotel Managment\Hotel Managment\bin\Debug\MySql.Data.xml
+D:\BCA\Sem 4\CSharp\Project\Hotel Managment\Hotel Managment\bin\Debug\System.Buffers.xml
+D:\BCA\Sem 4\CSharp\Project\Hotel Managment\Hotel Managment\bin\Debug\System.Memory.xml
+D:\BCA\Sem 4\CSharp\Project\Hotel Managment\Hotel Managment\bin\Debug\System.Numerics.Vectors.xml
+D:\BCA\Sem 4\CSharp\Project\Hotel Managment\Hotel Managment\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\BCA\Sem 4\CSharp\Project\Hotel Managment\Hotel Managment\obj\Debug\Hotel Managment.csproj.CopyComplete
+D:\BCA\Sem 4\CSharp\Project\Hotel Managment\Hotel Managment\obj\Debug\Hotel_Managment.rooms.resources
+D:\BCA\Sem 4\CSharp\Project\Hotel Managment\Hotel Managment\obj\Debug\Hotel_Managment.bookingpage.resources
+D:\BCA\Sem 4\CSharp\Project\Hotel Managment\Hotel Managment\obj\Debug\Hotel_Managment.checkout.resources
+D:\BCA\Sem 4\CSharp\Project\Hotel Managment\Hotel Managment\obj\Debug\Hotel_Managment.staffmanagement.resources
+D:\BCA\Sem 4\CSharp\Project\Hotel Managment\Hotel Managment\obj\Debug\Hotel_Managment.income.resources
