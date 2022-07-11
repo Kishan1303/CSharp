@@ -12,3 +12,5 @@ E:\Kishan Bhupta\PROJECT\Hotel Management\Hotel Management\obj\x86\Debug\Hotel M
 E:\Kishan Bhupta\PROJECT\Hotel Management\Hotel Management\obj\x86\Debug\Hotel_Management.checkout.resources
 E:\Kishan Bhupta\PROJECT\Hotel Management\Hotel Management\obj\x86\Debug\Hotel_Management.rooms.resources
 E:\Kishan Bhupta\PROJECT\Hotel Management\Hotel Management\obj\x86\Debug\Hotel_Management.bookinginfo.resources
+E:\Kishan Bhupta\PROJECT\Hotel Management\Hotel Management\obj\x86\Debug\Hotel_Management.income.resources
+E:\Kishan Bhupta\PROJECT\Hotel Management\Hotel Management\obj\x86\Debug\Hotel_Management.staffmanagement.resources

@@ -39,7 +39,7 @@
             // 
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
-            "ALL",
+            "All",
             "ac",
             "non-ac"});
             this.comboBox1.Location = new System.Drawing.Point(692, 24);
@@ -76,6 +76,7 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(825, 365);
             this.panel2.TabIndex = 2;
+            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
             // rooms
             // 

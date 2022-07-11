@@ -6,8 +6,6 @@ using System.Data;
 using System.Data.Sql;
 using System.Data.SqlClient;
 using System.Windows.Forms;
-using System.Data.SqlClient;
-using System.Data.Sql;
 
 namespace Hotel_Management
 {
